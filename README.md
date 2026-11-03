@@ -15,7 +15,7 @@ SDK 初始化兼容性曾使用 Claude Code 2.1.292、Magpie 0.1.2766 的启动�
 ## 安装
 
 ```sh
-git clone https://github.com/Knlife/claude-guard.git
+git clone https://github.com/Knlife/Claude-Guard.git claude-guard
 cd claude-guard
 python3 install.py --real-binary /absolute/path/to/real/claude
 ```
