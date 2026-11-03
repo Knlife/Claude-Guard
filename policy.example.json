@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "real_binary": "/absolute/path/to/claude",
+  "curl_binary": "/usr/bin/curl",
+  "proxy": "http://127.0.0.1:7890",
+  "expected_ips": ["203.0.113.10"],
+  "allowed_countries": ["US"],
+  "connect_timeout_seconds": 2,
+  "timeout_seconds": 6,
+  "attempts": 2,
+  "real_binary_by_hostname": {},
+  "magpie_url_by_hostname": {},
+  "optional_checks": {
+    "magpie": [],
+    "third-party": [],
+    "api": []
+  }
+}
